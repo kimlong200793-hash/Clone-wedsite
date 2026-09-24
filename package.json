@@ -24,10 +24,10 @@
     "shadcn-ui"
   ],
   "engines": {
-    "node": ">=24"
+    "node": ">=22"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000 -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
